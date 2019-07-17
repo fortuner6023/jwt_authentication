@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-schema",
+  "version": "1.0.0",
+  "description": "shoping website schemas",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Naveen saini",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.4",
+    "nodemon": "^1.19.1"
+  }
+}
