@@ -11,10 +11,6 @@ const UserRegister = mongoose.Schema({
     password: {type:String,required:true, max:1024},
 });
 
-  // UserRegister.method.generateAuthToken = ()=>{
-  //   const token = jwt.sign({_id:this._id, isAdmin:this.isAdmin },'shshshshshsh')
-  //   return token
-  // }
   
   const Register = mongoose.model("RegistrationDetails", UserRegister);
   module.exports = Register;
